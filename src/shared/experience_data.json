@@ -1,55 +1,113 @@
 {
-	"title": "Experience",
-	"subtitle": "Work, Internship and Volunteership",
-	"description":
-		"I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
-	"header_image_path": "experience.svg",
-	"sections": [
-		{
-			"title": "Work",
-			"experiences": [
-				{
-					"title": "Android and ML Developer",
-					"company": "Muffito Incorporation",
-					"company_url": "https://www.linkedin.com/company/muffito-inc/about/",
-					"logo_path": "muffito_logo.png",
-					"duration": "May 2018 - Oct 2018",
-					"location": "Pune, Maharashtra",
-					"description":
-						"I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-					"color": "#9b1578"
-				},
-				{
-					"title": "Android Developer",
-					"company": "FreeCopy Pvt. Ltd.",
-					"company_url": "https://www.linkedin.com/company/freecopy/about/",
-					"logo_path": "freecopy_logo.png",
-					"duration": "Nov 2017 - Dec 2017",
-					"location": "Ahmedabad, Gujarat",
-					"description":
-						"FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-					"color": "#fc1f20"
-				}
-			]
-		},
-		{
-			"title": "Internships",
-			"experiences": [
-				{
-					"title": "Data Science Research Intern",
-					"company": "Delhivery Pvt. Ltd.",
-					"company_url": "https://www.delhivery.com/",
-					"logo_path": "delhivery_logo.png",
-					"duration": "May 2019 - Sept 2019",
-					"location": "Gurgaon, Haryana",
-					"description": "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-					"color": "#ee3c26"
-				}
-			]
-		},
-		{
-			"title": "Volunteerships",
-			"experiences": []
-		}
-	]
+  "description": "I have professional research experience and have competed in various high-level competitions for AI, Cybersecurity, and Robotics.",
+  "header_image_path": "experience.svg",
+  "sections": [
+    {
+      "title": "Work",
+      "work": true,
+      "experiences": [
+        {
+          "title": "Undergraduate Research Assistant",
+          "company": "Singapore University of Technology and Design (SUTD)",
+          "company_url": "https://www.sutd.edu.sg/",
+          "logo_path": "SUTD.png",
+          "duration": "May 2025 - Present",
+          "location": "Singapore",
+          "description": "Part of a research team exploring how 'Parsons puzzles' can be reimagined for the proof-heavy 50.004 Algorithms course, aiming to help students master asymptotic analyses and formal proofs. Mapped Big-O/Θ/Ω argument patterns into reusable drag-and-drop blocks. Developing a React web app using Scratch-style interface (React Dnd + Tailwind + KaTeX) and a rule-based engine for proof sequences. Designing a learning-impact study with pre/post assessments.",
+          "color": "#003D7C"
+        },
+        {
+          "title": "Undergraduate Research Assistant",
+          "company": "Social AI Studio (SUTD)",
+          "company_url": "https://www.socialai.studio/",
+          "logo_path": "SUTD.png",
+          "duration": "Oct 2024 - Dec 2024",
+          "location": "Singapore",
+          "description": "Collaborated in a study on Retrieval-Augmented Generation (RAG) models, resulting in the publication 'Resolving Conflicting Evidence in Automated Fact-Checking: A Study on Retrieval-Augmented LLMs'. Annotated 300+ claim-evidence pairs for the CONFACT dataset, achieving >0.80 Fleiss' kappa inter-annotator agreement.",
+          "color": "#003D7C"
+        },
+        {
+          "title": "International Baccalaureate Computer Science Tutor, Part-Time",
+          "company": "Mathvision Enrichment Centre Pte Ltd",
+          "company_url": "https://mathvision.com.sg/",
+          "logo_path": "MathVision.png",
+          "duration": "Nov 2021 - Jan 2022",
+          "location": "Singapore",
+          "description": "Tutored over 15 IB students pursuing the Computer Science diploma at both Standard Level and Higher Level. Onboarded and trained new teachers in Higher Level topics, including Abstract Data Structures and Computer Engineering. Authored programming practice booklets for Grade 11 and 12 students to enhance their logical thinking and programming skills.",
+          "color": null
+        }
+      ]
+    },
+    {
+      "title": "Internships",
+      "experiences": []
+    },
+    {
+      "title": "Projects & Achievements",
+      "experiences": [
+        {
+          "title": "Singapore Students Merger CTF (SSMCTF) 2025",
+          "company": "8th Overall, Open Category",
+          "company_url": "https://ctf.ssmct.org/users/284",
+          "logo_path": "SSMCTF.png",
+          "duration": "June 2025",
+          "location": "Singapore",
+          "description": "Achieved an 8th-place finish out of 150+ global teams by solving 20+ challenges across 5 categories, exploiting vulnerabilities like JWT misconfigurations and automating flag extraction with pwntools.",
+          "color": "#e34c26"
+        },
+        {
+          "title": "DSTA BrainHack 2025 TIL-AI",
+          "company": "Semi-Finalist, Advanced Track",
+          "company_url": "https://github.com/TimSeah/til-25-data-chefs",
+          "logo_path": "DSTA.png",
+          "duration": "May 2025 - June 2025",
+          "location": "Singapore",
+          "description": "Achieved Semi-Finalist placement by tackling four diverse AI challenges within two weeks. Architected a CNN-based Deep Q-Network in PyTorch to train a 'Scout' robot for optimal maze navigation across 200,000 epochs. Developed a Computer Vision model using Ultralytics YOLOv8 and OpenCV to identify 18 classes of vehicles in real-time. Enhanced document OCR by fine-tuning PaddleOCR's SVTR model for accurate text extraction from low-quality scans. Optimized a speech-to-text pipeline using OpenAI Whisper and applied 4-bit quantization for sub-second transcription of noisy audio. All end-to-end workflows (RL, ASR, CV, OCR) were containerized on Google Cloud Platform using Docker for seamless development and submission.",
+          "color": "#1d6ff3"
+        },
+        {
+          "title": "50.001 Introduction to Information Systems & Programming | Centsible",
+          "company": "Outstanding Project Exhibit",
+          "company_url": "https://github.com/zengersoong/50.001-Introduction-to-Information-Systems---Programming",
+          "logo_path": "SUTD.png",
+          "duration": "Jan 2025 - May 2025",
+          "location": "Singapore University of Technology and Design (SUTD)",
+          "description": "Developed 'Centsible,' an Android app for group finance tracking, enabling transparent management of shared expenses and fostering financial accountability. Built from scratch using Java.",
+          "color": null
+        },
+        {
+          "title": "50.002 Computation Structures | I Want A Sushi",
+          "company": "Outstanding Project Exhibit",
+          "company_url": "https://natalieagus.github.io/50002/",
+          "logo_path": "SUTD.png",
+          "duration": "Jan 2025 - May 2025",
+          "location": "Singapore University of Technology and Design (SUTD)",
+          "description": "Designed and implemented 'I Want A Sushi,' a 30-second, fast-paced arcade-style game developed from scratch on an FPGA board. This two-player, 4-lane tug-of-war game was inspired by the Nintendo Switch.",
+          "color": null
+        },
+        {
+          "title": "SUTD 03.007 Design Thinking and Innovation | SimplyGlow",
+          "company": "Top Design Award",
+          "company_url": "https://www.sutd.edu.sg/course/03-007-design-thinking-and-innovation/",
+          "logo_path": "SUTD.png",
+          "duration": "Jan 2024 - Apr 2024",
+          "location": "Singapore University of Technology and Design (SUTD)",
+          "description": "As Team Leader, designed and developed 'SimplyGlow,' an interactive, LED-lit train seating system aimed at fostering social interaction and creating dynamic public spaces. This project received the 'Top Design Award' for its innovative use of LED strips and motion detection, leveraging Fusion360 and Arduino for implementation.",
+          "color": null
+        },
+        {
+          "title": "16th VEX Asia-Pacific Robotics Championship",
+          "company": "Tournament Champions & Laurel Award",
+          "company_url": "https://www.instagram.com/p/C21EiujR_Fw/",
+          "logo_path": "VEX.png",
+          "duration": "Dec 2023 - Jan 2024",
+          "location": "Yogyakarta, Indonesia",
+          "description": "Led a 13-member team to a 1st place finish. Engineered a collapsible net system in Fusion360, a critical design innovation for compliance with size limits.",
+          "color": "#d9212c"
+        }
+      ]
+    }
+  ],
+  "subtitle": "Work, Internship and Volunteership",
+  "title": "Experience"
 }

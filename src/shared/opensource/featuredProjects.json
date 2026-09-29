@@ -1,0 +1,123 @@
+{
+  "data": [
+    {
+      "id": "real-or-fake",
+      "name": "Real or Fake?",
+      "period": "TikTok TechJam · 2026",
+      "result": "Participant",
+      "role": "Solo developer",
+      "description": "An AI-image detector tested across six real-world transformations, with an interactive human-versus-AI game. I built the model, evaluation pipeline, inference API, and web experience.",
+      "note": "Project evaluation: 0.9578 clean / 0.8966 robust ROC-AUC on an 800-image diagnostic pool.",
+      "tags": [
+        "OpenCLIP",
+        "PyTorch",
+        "FastAPI",
+        "React",
+        "Modal"
+      ],
+      "links": [
+        {
+          "label": "Play demo",
+          "url": "https://real-vs-ai.pages.dev/"
+        },
+        {
+          "label": "Devpost",
+          "url": "https://devpost.com/software/real-or-fake-uyxbiw"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/TimSeah/TikTokTechJam2026"
+        }
+      ]
+    },
+    {
+      "id": "carrie",
+      "name": "Carrie",
+      "period": "StormHacks · 2025",
+      "result": "Winner · Best Use of ElevenLabs",
+      "role": "AI / LLM & Python development",
+      "description": "A prototype AI wellbeing companion with live voice interaction and facial-expression signals. I developed the AI and Python components that connect visual context to the conversation.",
+      "note": "A hackathon wellbeing prototype, not a clinical care service.",
+      "tags": [
+        "Python",
+        "OpenCV",
+        "Transformers",
+        "ElevenLabs",
+        "LiveKit"
+      ],
+      "links": [
+        {
+          "label": "Devpost & award",
+          "url": "https://devpost.com/software/carrie-ai-therapy-in-your-pocket"
+        }
+      ]
+    },
+    {
+      "id": "covercheck",
+      "name": "CoverCheck SG",
+      "period": "SimplifyNext Agentic AI Hackathon · 2026",
+      "result": "Participant",
+      "role": "Primary developer",
+      "description": "An insurance-readiness prototype with a guided user journey, deterministic comparisons, and evidence-grounded explanations. I built the core frontend and API workflows and integrated retrieval, Bedrock explanations, and confirmed profile changes.",
+      "note": "Synthetic plan comparisons; cached real-product brochures supply supporting context.",
+      "tags": [
+        "React",
+        "FastAPI",
+        "PostgreSQL / pgvector",
+        "Amazon Bedrock",
+        "Docker"
+      ],
+      "links": [
+        {
+          "label": "About the event",
+          "url": "https://hackathon.simplifynext.com/"
+        }
+      ]
+    },
+    {
+      "id": "clinicprep",
+      "name": "ClinicPrep Assistant",
+      "period": "SMU Hack4Health · 2026",
+      "result": "Participant",
+      "role": "Primary developer · Team DaLongBao",
+      "description": "A pre-visit clinic-registration prototype. I built the core Copilot Studio conversation flows and a live Power Automate / SharePoint handoff so staff receive a structured summary for review.",
+      "note": "Eligibility and billing use mocks. Staff retain identity and insurance-card checks.",
+      "tags": [
+        "Copilot Studio",
+        "Power Automate",
+        "SharePoint"
+      ],
+      "links": [
+        {
+          "label": "Watch demo",
+          "url": "https://youtu.be/TqB2ibZvX5Y"
+        },
+        {
+          "label": "About the event",
+          "url": "https://luma.com/nuz1nvo9"
+        }
+      ]
+    },
+    {
+      "id": "ubs-toolbox",
+      "name": "MCP ToolBox",
+      "period": "UBS Global Coding Challenge · 2026",
+      "result": "Participant",
+      "role": "MCP developer",
+      "description": "Tools that help an AI agent retrieve study material, plan routes, find venues, and coordinate schedules. I built the Node.js MCP implementation and refined retrieval ranking and tool behaviour across challenge stages.",
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "MCP",
+        "Retrieval",
+        "Algorithms"
+      ],
+      "links": [
+        {
+          "label": "About the event",
+          "url": "https://www.nus.edu.sg/cfg/events/details/5fadb31b94935626a0c91b3fa53b583c"
+        }
+      ]
+    }
+  ]
+}

@@ -13,6 +13,7 @@ import {
   publications,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
+import FeaturedProjects from "../../shared/opensource/featuredProjects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
@@ -49,9 +50,20 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
+        <h2 className="project-section-title" style={{ color: theme.text }}>
+          Featured projects
+        </h2>
+        <div className="repo-cards-div-main featured-projects">
+          {FeaturedProjects.data.map((repo) => (
+            <GithubRepoCard key={repo.id} repo={repo} theme={theme} />
+          ))}
+        </div>
+        <h2 className="project-section-title" style={{ color: theme.text }}>
+          More projects
+        </h2>
         <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
+            return <GithubRepoCard key={repo.id} repo={repo} theme={theme} />;
           })}
         </div>
         <Button
@@ -88,7 +100,7 @@ class Projects extends Component {
 
         <div className="repo-cards-div-main">
           {publications.data.map((pub) => {
-            return <PublicationCard pub={pub} theme={theme} />;
+            return <PublicationCard key={pub.id} pub={pub} theme={theme} />;
           })}
         </div>
 

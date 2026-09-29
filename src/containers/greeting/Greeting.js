@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import { Link } from "react-router-dom";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -28,6 +29,26 @@ export default function Greeting(props) {
               >
                 {greeting.subTitle}
               </p>
+              <ul className="greeting-highlights" style={{ color: theme.text }}>
+                <li>
+                  <Link to="/experience" style={{ color: theme.text }}>
+                    <strong>Procter & Gamble</strong>
+                    <span>8 months in Software Engineering</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/projects" style={{ color: theme.text }}>
+                    <strong>StormHacks 2025</strong>
+                    <span>Best Use of ElevenLabs</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/experience" style={{ color: theme.text }}>
+                    <strong>AWS CTF 2025</strong>
+                    <span>Top 10 Global Finalist</span>
+                  </Link>
+                </li>
+              </ul>
               <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">
                 <Button

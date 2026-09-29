@@ -6,27 +6,41 @@ class DegreeCard extends Component {
   render() {
     const degree = this.props.degree;
     const theme = this.props.theme;
+    const hasLogo = degree.logo_path || degree.logo_text;
     return (
       <div className="degree-card">
-        {degree.logo_path && (
+        {hasLogo && (
           <Flip left duration={2000}>
             <div className="card-img">
-              <img
-                style={{
-                  maxWidth: "100%",
-                  maxHeight: "100%",
-                  transform: "scale(0.9)",
-                }}
-                src={require(`../../assets/images/${degree.logo_path}`)}
-                alt={degree.alt_name}
-              />
+              {degree.logo_path ? (
+                <img
+                  style={{
+                    maxWidth: "100%",
+                    maxHeight: "100%",
+                    transform: "scale(0.9)",
+                  }}
+                  src={require(`../../assets/images/${degree.logo_path}`)}
+                  alt={degree.alt_name}
+                />
+              ) : (
+                <div
+                  className="card-monogram"
+                  aria-hidden="true"
+                  style={{
+                    backgroundColor: theme.highlight,
+                    color: theme.text,
+                  }}
+                >
+                  {degree.logo_text}
+                </div>
+              )}
             </div>
           </Flip>
         )}
         <Fade right duration={2000} distance="40px">
           <div
             className="card-body"
-            style={{ width: degree.logo_path ? "90%" : "100%" }}
+            style={{ width: hasLogo ? "90%" : "100%" }}
           >
             <div
               className="body-header"

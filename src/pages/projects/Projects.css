@@ -115,3 +115,19 @@
     margin-top: 30px;
   }
 }
+
+.project-section-title {
+  margin: 48px 5% 0;
+  text-align: left;
+  font-family: "Google Sans Medium";
+  font-size: 28px;
+}
+.featured-projects {
+  margin-top: 24px;
+}
+@media (max-width: 768px) {
+  .repo-cards-div-main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

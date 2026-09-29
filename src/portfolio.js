@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Timothy Seah | Portfolio",
   description:
-    "A Computer Science and Design student at SUTD with a passion in Cybersecurity and AI.",
+    "SUTD Computer Science and Design student building practical AI systems. Eight months of software engineering at P&G, award-winning hackathon work, and a global Top 10 CTF finish.",
   og: {
     title: "Timothy Seah | Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "TimothySeah",
   nickname: "佘凯乐",
   subTitle:
-    "A Computer Science and Design student at SUTD with a passion in Cybersecurity and AI.",
+    "I'm a CS student engineering secure, real-world AI systems. Recently wrapped up an 8-month SWE internship at P&G. Outside the classroom, I ship ML projects and compete in hackathons and CTFs.",
   resumeLink:
     "https://drive.google.com/file/d/1FwUgPVrbcBUqk_FUyMvGNg0k4BTBeAOo/view?usp=sharing", // Replace with your actual resume link
   portfolio_repository:
@@ -91,9 +91,9 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developed and trained advanced AI models for Reinforcement Learning, Computer Vision, OCR, and ASR",
+        "⚡ Built enterprise AI workflows with Copilot Studio, MCP, and Veeva Vault APIs at P&G",
         "⚡ Researched LLM handling of conflicting information in RAG models for automated fact-checking",
-        "⚡ Implemented a PyTorch CNN-based Deep Q-Network for navigation and trained YOLOv8 for real-time vehicle detection",
+        "⚡ Trained and evaluated an OpenCLIP image detector across real-world transformations; built vision, OCR, and speech prototypes",
       ],
       softwareSkills: [
         {
@@ -157,8 +157,8 @@ const skills = {
       title: "CyberSecurity",
       fileName: "CyberSecurityImg",
       skills: [
-        "⚡ Avid participant in CTF competitions, with a focus on web security challenges",
-        "⚡ Solved 20+ challenges across diverse categories in the latest SSMCTF 2025!",
+        "⚡ Top 10 Global Finalist in AWS Skills to Jobs CTF 2025, powered by SANS",
+        "⚡ Competed in TISC 2026; previously placed 8th overall in the SSMCTF 2025 Open Category",
         "⚡ Authored technical write-ups and mentored junior cybersecurity enthusiasts in SUTD's Google Developer Club",
       ],
       softwareSkills: [
@@ -195,8 +195,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Developed responsive front-end applications using ReactJS and TypeScript",
-        "⚡ Built robust back-end systems and APIs with Node.js for effective server-side logic",
-        "⚡ Managed databases, including SQL (MySQL, SQLite) and NoSQL (MongoDB) solutions",
+        "⚡ Built Python/FastAPI services and Node.js MCP tools for AI applications",
+        "⚡ Integrated PostgreSQL/pgvector retrieval, grounded explanations, and user-confirmed workflow changes",
       ],
       softwareSkills: [
         {
@@ -410,11 +410,25 @@ const degrees = {
       alt_name: "SUTD",
       duration: "Sep 2023 - May 2027",
       descriptions: [
-        "⚡ Focus Track: Security, CGPA 4.69/5.00",
+        "⚡ Focus Track: Security, CGPA 4.67/5.00",
         "⚡ Ensign InfoSecurity — SUTD Scholarship Holder (Bond Free)",
         "⚡ Relevant Courses: Python, Java OOP, Android Software Development, Data Structure & Algorithms, Operating System & Networks, Computation Structures, Introduction to Cybersecurity, Machine Learning.",
       ],
       website_link: "https://sutd.edu.sg",
+    },
+    {
+      title: "The University of British Columbia (UBC)",
+      subtitle: "Global Exchange Programme, Year 3 · UBC Vancouver",
+      logo_path: "UBC.png",
+      alt_name: "UBC",
+      duration: "Aug 2025 - Dec 2025",
+      descriptions: [
+        "⚡ Courses: Deep Learning (CPEN 455, A-), Introduction to Artificial Intelligence (CPSC 322, A), Introduction to Computer Networking (CPSC 317), and Introduction to Biological and Cognitive Psychology (PSYC 101).",
+        "⚡ Deep learning from first principles: implemented convolution and backpropagation, a Transformer encoder, and a variational autoencoder in PyTorch. For the individual course project, turned a 135M-parameter Llama-style model into a Bayesian spam classifier, comparing zero-shot, prompting, full fine-tuning, LoRA, and prefix-tuning.",
+        "⚡ Networking hands-on: built a DICT client and a DNS resolver in Java, then a POP mail server, a reliable TCP-style transport over UDP, and an IP router in C.",
+        "⚡ Key learning: building models and protocols from scratch, rather than calling libraries, showed me how they behave and where they fail. Outside class, our team won Best Use of ElevenLabs at StormHacks 2025 with Carrie.",
+      ],
+      website_link: "https://www.ubc.ca/",
     },
     {
       title: "Yonsei University (YU)",
@@ -574,7 +588,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Projects and Achievements",
   description:
-    "Check out my previous work, projects, and competitions in AI, Cybersecurity, and Robotics!",
+    "Software engineering at P&G, practical AI projects, and competitions in cybersecurity and robotics.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -582,14 +596,35 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Software Engineer Intern",
+          company: "Procter & Gamble — Singapore Innovation Centre",
+          company_url: "https://www.pg.com/",
+          logo_path: "PG.png",
+          duration: "Jan–Sep 2026 · 8 months",
+          location: "Singapore",
+          role_note:
+            "Official title: Associate Research Scientist Intern · Innovation Centre Management",
+          description:
+            "Engineered AI tools for laboratory and operational workflows, taking projects from stakeholder discovery through architecture, implementation, testing, and demonstrations.",
+          bullets: [
+            "Built WorkEZ’s custom JavaScript MCP integration with Veeva Vault, connecting a Copilot Studio agent to document retrieval and change-control preparation in a working sandbox.",
+            "Reduced guided change-control completion time from approximately 73 to 28 minutes in sandbox testing — a projected 135 hours of annual capacity at the observed workload.",
+            "Developed hands-free lab-assistant prototypes across web, HoloLens 2, and Rokid Glasses, combining voice, visual context, and note capture.",
+            "Built AI-assisted electronic lab notebook review and computer-vision prototypes for cleaning and sanitisation workflows.",
+          ],
+          detail_note:
+            "5 January–4 September 2026. WorkEZ remains in sandbox; annual savings are projected, not realised production savings.",
+          color: "#003da5",
+        },
+        {
           title: "Undergraduate Research Assistant",
           company: "Singapore University of Technology and Design (SUTD)",
           company_url: "https://www.sutd.edu.sg/",
           logo_path: "SUTD.png",
-          duration: "May 2025 - Present",
+          duration: "May 2025 - Dec 2025",
           location: "Singapore",
           description:
-            "Part of a research team exploring how 'Parsons puzzles' can be reimagined for the proof-heavy 50.004 Algorithms course, aiming to help students master asymptotic analyses and formal proofs. Mapped Big-O/Θ/Ω argument patterns into reusable drag-and-drop blocks. Developing a React web app using Scratch-style interface (React Dnd + Tailwind + KaTeX) and a rule-based engine for proof sequences. Designing a learning-impact study with pre/post assessments.",
+            "Part of a research team exploring how 'Parsons puzzles' can be reimagined for the proof-heavy 50.004 Algorithms course, aiming to help students master asymptotic analyses and formal proofs. Mapped Big-O/Θ/Ω argument patterns into reusable drag-and-drop blocks. Developed a React web app using a Scratch-style interface (React DnD + Tailwind + KaTeX) and a rule-based engine for proof sequences. Designed a learning-impact study with pre/post assessments.",
           color: "#003D7C",
         },
         {
@@ -624,8 +659,101 @@ const experience = {
     //   ],
     // },
     {
-      title: "Projects & Achievements",
+      title: "Competitions & Achievements",
       experiences: [
+        {
+          title: "The InfoSecurity Challenge (TISC) 2026",
+          company: "Participant",
+          company_url: "https://www.csit.gov.sg/events/tisc/about",
+          logo_path: "CSIT.png",
+          duration: "Sep 2026",
+          location: "Singapore",
+          description:
+            "Participated in CSIT’s individual cybersecurity CTF, practising problem-solving through progressively harder security challenges.",
+        },
+        {
+          title: "SimplifyNext Agentic AI Hackathon 2026 | CoverCheck SG",
+          company: "Participant · Primary developer",
+          company_url: "https://hackathon.simplifynext.com/",
+          logo_path: "SimplifyNext.png",
+          duration: "Aug–Sep 2026",
+          location: "Singapore",
+          description:
+            "Led the implementation of CoverCheck SG, an insurance-readiness prototype. Built the frontend journey, FastAPI services, deterministic plan comparisons, and integration of cached brochure evidence with Bedrock explanations. Users confirm budget changes before recalculation and can undo them. Comparisons use synthetic plans; real-product brochures provide read-only context.",
+        },
+        {
+          title: "TikTok TechJam 2026 | Real or Fake?",
+          company: "Participant · Solo developer",
+          company_url: "https://devpost.com/software/real-or-fake-uyxbiw",
+          logo_path: "TikTok.png",
+          duration: "Aug–Sep 2026",
+          location: "Singapore",
+          description:
+            "Built and deployed an AI-image detector and a human-versus-AI game end to end. Combined frozen OpenCLIP embeddings with a trained classifier, evaluated six image transformations, and delivered a FastAPI inference service with a React showcase. Project evaluation: 0.9578 clean ROC-AUC and 0.8966 condition-weighted robust ROC-AUC on an 800-image diagnostic pool.",
+        },
+        {
+          title: "UBS Global Coding Challenge 2026 | MCP ToolBox",
+          company: "Participant · MCP developer",
+          company_url:
+            "https://www.nus.edu.sg/cfg/events/details/5fadb31b94935626a0c91b3fa53b583c",
+          logo_path: "UBS.png",
+          duration: "Aug 2026",
+          location: "Singapore",
+          description:
+            "Built the team’s Node.js MCP ToolBox, giving an AI agent tools for study-material retrieval, route planning, venue discovery, and scheduling. Iterated on retrieval ranking, argument handling, and tool descriptions across successive challenge stages.",
+        },
+        {
+          title: "SMU Hack4Health 2026 | ClinicPrep Assistant",
+          company: "Participant · Primary developer",
+          company_url: "https://luma.com/nuz1nvo9",
+          logo_path: "Hack4Health.png",
+          duration: "Aug 2026",
+          location: "Singapore",
+          description:
+            "Built the core ClinicPrep Assistant prototype for team DaLongBao in Microsoft Copilot Studio, including nine conversation topics and a live Power Automate handoff to SharePoint. Designed registration, consent, and staff-escalation flows. Upstream eligibility and billing actions use mocks; staff retain identity and insurance-card verification.",
+        },
+        {
+          title: "AWS Skills to Jobs CTF 2025",
+          company: "Top 10 Global Finalist",
+          company_url:
+            "https://www.sans.org/press/announcements/sans-aws-team-up-expand-global-access-cybersecurity-skills",
+          logo_path: "AWS.png",
+          duration: "Oct 2025",
+          location: "Online",
+          description:
+            "Placed among the Top 10 global finalists in the AWS Skills to Jobs CTF, powered by SANS, competing in hands-on cybersecurity challenges.",
+        },
+        {
+          title: "StormHacks 2025 | Carrie",
+          company: "Winner — Best Use of ElevenLabs",
+          company_url:
+            "https://devpost.com/software/carrie-ai-therapy-in-your-pocket",
+          logo_path: "StormHacks.png",
+          duration: "Oct 2025",
+          location: "SFU · Burnaby, Canada",
+          description:
+            "Co-developed Carrie, a prototype AI wellbeing companion combining live conversation with facial-expression signals. Owned the AI/LLM and Python development and connected emotion analysis to the conversational experience. Our team won the MLH Best Use of ElevenLabs prize at SFU Surge’s StormHacks 2025.",
+        },
+        {
+          title: "Dell Book Prize 2025 | Nurtura",
+          company: "Winner — 1st Place",
+          company_url: "https://github.com/TimSeah/Nurtura",
+          logo_path: "Dell.png",
+          duration: "Jun–Aug 2025",
+          location: "Singapore University of Technology and Design (SUTD)",
+          description:
+            "Led a seven-engineer team to build Nurtura, a caregiving platform with care calendars, email reminders, health tracking, and a moderated community forum, developed for 50.003 Elements of Software Construction with partner Lions Befrienders Singapore. Owned the Node.js/Express/MongoDB backend, the AWS ECS/Fargate deployment with GitHub Actions CI/CD, and forum auto-moderation using MetaHateBERT further trained on Singapore hate-speech data. Won the Dell Technologies Elements of Software Construction Course Award.",
+        },
+        {
+          title: "SAP S.C.A.L.E 2025 | SkyLink Airlines",
+          company: "2nd Runner-Up",
+          company_url: "https://github.com/TimSeah/scale2025Tech_Group5",
+          logo_path: "SAP.png",
+          duration: "Jun–Aug 2025",
+          location: "Singapore",
+          description:
+            "Placed 2nd Runner-Up with a four-person team proposing an integrated SAP operations platform for SkyLink Airlines, the case’s fictional mid-sized carrier. Built the maintenance dashboard, the predictive-maintenance logic that turns aircraft risk scores into maintenance requests, and the dynamic-pricing module. The solution combined SAP UI5, Build Apps, Build Process Automation, Work Zone, and Joule.",
+        },
         {
           title: "Singapore Students Merger CTF (SSMCTF) 2025",
           company: "8th Overall, Open Category",
@@ -715,7 +843,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects utilize a vast variety of latest technology tools. My best experience is creating AI/ML projects and deploying them using cloud infrastructure, as well as competing in cybersecurity and robotics challenges.",
+    "Selected work in applied AI, enterprise integration, and cybersecurity. Explore what I built, the engineering decisions behind it, and the outcomes.",
   avatar_image_path: "projects_image.svg",
 };
 

@@ -30,6 +30,18 @@
   box-shadow: 5px 5px 5px #d9dbdf;
 }
 
+.card-monogram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  font-family: "Google Sans Bold", "Google Sans Medium", sans-serif;
+  font-size: 44px;
+  letter-spacing: 1px;
+}
+
 .body-header {
   max-width: inherit;
   display: flex;

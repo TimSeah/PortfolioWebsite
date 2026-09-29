@@ -745,6 +745,17 @@ const experience = {
             "Led a seven-engineer team to build Nurtura, a caregiving platform with care calendars, email reminders, health tracking, and a moderated community forum, developed for 50.003 Elements of Software Construction with partner Lions Befrienders Singapore. Owned the Node.js/Express/MongoDB backend, the AWS ECS/Fargate deployment with GitHub Actions CI/CD, and forum auto-moderation using MetaHateBERT further trained on Singapore hate-speech data. Won the Dell Technologies Elements of Software Construction Course Award.",
         },
         {
+          title:
+            "50.007 Machine Learning Kaggle Competition 2025 | Hate Speech",
+          company: "Winner — 1st Place",
+          company_url: "https://github.com/Kantosaurus/h8-sp33ch",
+          logo_path: "Kaggle.png",
+          duration: "Jun–Aug 2025",
+          location: "Singapore University of Technology and Design (SUTD)",
+          description:
+            "Placed 1st on the class Kaggle leaderboard with a five-person team, classifying about 22,000 social-media posts as hateful or non-hateful from 5,000 TF-IDF features, scored by Macro F1. Built the team’s classical machine-learning suite of 19 models, from linear classifiers to gradient boosting, and a weighted ensemble of Extra Trees, Ridge, CatBoost, LDA, and LightGBM. The project also covered logistic regression from scratch and PCA with KNN; deep learning was not allowed.",
+        },
+        {
           title: "SAP S.C.A.L.E 2025 | SkyLink Airlines",
           company: "2nd Runner-Up",
           company_url: "https://github.com/TimSeah/scale2025Tech_Group5",
